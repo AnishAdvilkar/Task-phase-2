@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+body {
+    /* MANDATORY: Changes the main background color */
+    background-color: #f4f4f9; 
+    
+    /* EXPECTED: Applies the Google font you imported */
+    font-family: 'Google Sans', sans-serif; 
+    
+    /* EXPECTED: Changes font color. Must contrast with background! */
+    color: #1a1a1a; 
+    
+    /* EXPECTED: Adds space around the edges so content doesn't stick */
+    margin: 40px; 
+}
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 16px;
+}
+div {
+    /* MANDATORY: A different background color from the body */
+    background-color: #ffffff; 
+    
+    /* Optional but Appreciated: Adds breathing room inside the box */
+    padding: 20px; 
+    
+    /* Makes it look like a nice distinct box */
+    border-radius: 8px; 
+}
